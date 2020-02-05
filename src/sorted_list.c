@@ -49,7 +49,7 @@ _compare(linked_list *c, element_t * old_element, element_t * new_element)
 	if (!c->compare)
 		return false;
 
-	if (c->compare( old_element->current, new_element->current))
+	if (c->compare( old_element->data, new_element->data))
 		return true;
 	else
 		return false;

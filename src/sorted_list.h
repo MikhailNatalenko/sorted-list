@@ -34,7 +34,7 @@ extern "C"
 #endif
 
 typedef struct element_t{
-	void * current;
+	void * data;
 	struct element_t* next;
 }element_t;
 
